@@ -9,6 +9,7 @@
   /* Neutral */
 
   --dark-blue-main: hsl(217, 54%, 11%);
+  --dark-blue-shadow: hsl(217, 55%, 10%);
   --dark-blue-card: hsl(216, 50%, 16%);
   --dark-blue-line: hsl(215, 32%, 27%);
   --white: hsl(0, 0%, 100%);
@@ -59,6 +60,7 @@ p {
   padding: var(--s-24) var(--s-24) var(--s-32) var(--s-24);
   background-color: var(--dark-blue-card);
   border-radius: var(--s-16);
+  box-shadow: 0px 24px 32px 16px var(--dark-blue-shadow);
 }
 
 .card > img {
@@ -104,6 +106,7 @@ p {
 .time > p {
   margin: 0 0 0 var(--s-8);
   color: var(--soft-blue);
+  font-weight: var(--w-regular);
 }
 
 .author {
