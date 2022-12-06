@@ -1,0 +1,42 @@
+@import url(normalize.css);
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+:root {
+  /* Primary */
+  --soft-blue: hsl(215, 51%, 70%);
+  --cyan: hsl(178, 100%, 50%);
+
+  /* Neutral */
+
+  --dark-blue-main: hsl(217, 54%, 11%);
+  --dark-blue-card: hsl(216, 50%, 16%);
+  --dark-blue-line: hsl(215, 32%, 27%);
+  --white: hsl(0, 0%, 100%);
+
+  /* Font */
+  --outfit: "Outfit", sans-serif;
+  --w-light: 300;
+  --w-regular: 400;
+  --w-semibold: 600;
+
+  /* Sizes*/
+  --s-16: 1rem;
+  --s-24: 1.5rem;
+  --s-32: 2rem;
+  --s-40: 2.5rem;
+  --s-48: 3rem;
+  --s-64: 4rem;
+  --s-80: 5rem;
+}
+
+/* Footer */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  bottom: 1rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
